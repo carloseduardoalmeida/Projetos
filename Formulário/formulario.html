@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header class="header">
+    <h1 class="title">Formulário</h1>
+    <h2 class="subtitle">Preencha o formulário:</h2>
+  </header>
+
+  <section class="container">
+    <fieldset>
+      <form>
+        <div>
+          <label for="nome">Nome</label><br>
+          <input type="text" id="nome" placeholder="Nome">
+        </div>
+        <div>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" placeholder="Email">
+        </div>
+        <div>
+          <label for="idade">Idade</label><br>
+          <input type="number" id="idade" placeholder="Idade">
+        </div>
+      </form>
+
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Com quais tecnologias você trabalha?</label><br>
+        <label>
+          <input type="checkbox" name="tecnologias" value="html"> HTML
+        </label><br>
+        <label>
+          <input type="checkbox" name="tecnologias" valuea="CSS"> CSS
+        </label><br>
+        <label>
+          <input type="checkbox" name="tecnologias" value="JavaScript"> JavaScript
+        </label><br>
+      </div>
+
+      <div>
+        <label>Qual opção melhor representa o seu nível?</label><br>
+        <label>
+          <input type="radio" name="nivel" value="Junior" class="normal"> Junior<br>
+          <input type="radio" name="nivel" value="Pleno" class="normal"> Pleno<br>
+          <input type="radio" name="nivel" value="Senior" class="normal"> Sênior<br>
+        </label>
+      </div>
+
+      <div>
+        <label>Em qual área você prentende atuar?</label><br>
+        <select>
+          <option selected disabled>Selecione</option>
+          <optgroup label="Front-End">
+            <option>Design</option>
+            <option>Ecommerce</option>
+            <option>Apps</option>
+          </optgroup>
+          <optgroup label="Back-End">
+            <option>APIs</option>
+            <option>Games</option>
+            <option>Apps</option>
+          </optgroup>
+        </select><br>
+      </div>
+
+      <div>
+        <label>Deixe seu comentário:</label><br>
+        <textarea placeholder="Comente aqui"></textarea>
+      </div>
+
+    </fieldset>
+
+    <button>CONCLUIR</button>
+
+  </section>
+
+
+
+</body>
+
+</html>

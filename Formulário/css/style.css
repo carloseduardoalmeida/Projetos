@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@200;300;400;600&family=Passion+One&family=Poppins:wght@100;200;300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@200;300;400;600&family=Passion+One&family=Poppins:wght@100;200;300&family=Sriracha&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  color: white;
+  text-shadow: 1px 1px 10px #353333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+.header h2 {
+  font-size: 1.5em;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #fa33f2, #9000db, #250bd9);
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+  border: 0 solid black;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  box-shadow: 3px 3px 10px #2e2d2d;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+input {
+  border-radius: 3px;
+  border: none;
+  box-shadow: 1px 1px 10px black;
+}
+
+.normal {
+  box-shadow: none;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  background-color: #250bd9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px black;
+  align-self: center;
+  transition: 0.3s;
+}
+button:hover {
+  cursor: pointer;
+  width: 130px;
+  height: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

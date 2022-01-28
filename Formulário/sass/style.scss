@@ -1,0 +1,55 @@
+@import "variaveis";
+@import "mixins";
+
+* {
+  font-family: $font-padrao;
+  font-weight: 300;
+}
+
+.header {
+  @include header;
+  @include flex-center;
+}
+
+body {
+  background-image: linear-gradient(to bottom, $bg-color3, $bg-color2, $bg-color1);
+  background-attachment: fixed;
+}
+.container {
+  @include container;
+}
+
+fieldset {
+  border: none;
+}
+
+div {
+  margin-bottom: 15px;
+}
+input {
+  border-radius: 3px;
+  border: none;
+  box-shadow: 1px 1px 10px black;
+}
+
+.normal {
+  box-shadow: none;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  background-color: $bg-color1;
+  color: $primary-color;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px black;
+  align-self: center;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    width: 130px;
+    height: 35px;
+  }
+}
