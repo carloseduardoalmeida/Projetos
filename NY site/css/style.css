@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -26,12 +27,31 @@
   text-align: center;
   border-radius: 2px;
 }
+@media (max-width: 700px) {
+  .img1 h1 {
+    width: 300px;
+    font-size: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .img1 h1 {
+    width: 200px;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 400px) {
+  .img1 h1 {
+    width: 120px;
+    font-size: 1em;
+  }
+}
 
 .img2 {
   background-image: url("../imagens/NY-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   height: 80vh;
   width: 100%;
 }
@@ -41,6 +61,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   height: 60vh;
   width: 100%;
   display: flex;
@@ -51,6 +72,43 @@
   color: white;
   font-size: 2.8em;
   text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .img3 h1 {
+    width: 300px;
+    font-size: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .img3 h1 {
+    width: 200px;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 400px) {
+  .img3 h1 {
+    width: 120px;
+    font-size: 1em;
+  }
+}
+@media (max-width: 700px) {
+  .img3 h1 {
+    width: 300px;
+    font-size: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .img3 h1 {
+    width: 200px;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 400px) {
+  .img3 h1 {
+    width: 120px;
+    font-size: 1em;
+  }
 }
 
 .img4 {
@@ -58,6 +116,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -73,6 +132,24 @@
   padding: 10px;
   text-align: center;
   border-radius: 2px;
+}
+@media (max-width: 700px) {
+  .img4 h1 {
+    width: 300px;
+    font-size: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .img4 h1 {
+    width: 200px;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 400px) {
+  .img4 h1 {
+    width: 120px;
+    font-size: 1em;
+  }
 }
 
 .text {
@@ -92,8 +169,38 @@
   font-size: 1.2em;
   line-height: 1.6em;
 }
+@media (max-width: 700px) {
+  .text div p {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 500px) {
+  .text div p {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 400px) {
+  .text div p {
+    font-size: 1em;
+  }
+}
 .text div h2 {
   text-align: center;
+}
+@media (max-width: 700px) {
+  .text div h2 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 500px) {
+  .text div h2 {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 400px) {
+  .text div h2 {
+    font-size: 1.1em;
+  }
 }
 
 #white {
