@@ -20,6 +20,15 @@
 .header h2 {
   font-size: 1.5em;
 }
+@media (max-width: 400px) {
+  .header h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+  .header h2 {
+    font-size: 1em;
+  }
+}
 
 body {
   background-image: linear-gradient(to bottom, #fa33f2, #9000db, #250bd9);
