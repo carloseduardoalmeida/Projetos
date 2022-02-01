@@ -10,22 +10,46 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <h1>CEA Learning</h1>
     <h3>Tudo que você precisa para se tornar um programador profissional!</h3>
+    <img src="image/img-my-removebg-preview.png" alt="eu">
   </header>
 
   <main>
 
-    <section>
-      imagem paralax
+    <section class="paralax">
+
       <h1>A profissão do futuro</h1>
+
     </section>
 
-    <section>
+    <!--<section class="slides">-->
+
+    <div class="slides">
       <h2>Tecnologias abordadas:</h2>
-      slide de imagens
-    </section>
+      <div class="imgs">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+
+        <div class="img s1"><img src="image/html-1.png" alt="HTML"></div>
+        <div class="img"><img src="image/css-1.png" alt="CSS"></div>
+        <div class="img"><img src="image/javascript-1.png" alt="JavaScript"></div>
+        <div class="img"><img src="image/react-1.png" alt="React"></div>
+        <div class="img"><img src="image/nodejs-1.png" alt="NodeJS"></div>
+        <div class="img"><img src="image/python-1.png" alt="Python"></div>
+        <div class="img"><img src="image/swift-1.png" alt="Swift"></div>
+        <div class="img"><img src="image/mysql-1.png" alt="mySQL"></div>
+
+      </div>
+
+      <div class="navigation">
+        <label for="slide1"><img src="image/seta-esquerda.png" alt="seta"></label>
+        <label for="slide2"><img src="image/seta-direita.png" alt="seta"></label>
+      </div>
+    </div>
+
+    <!-- </section>-->
 
     <section>
       <h2>Essa é sua melhor oportunidade para aprender a programar de verdade e
@@ -34,12 +58,20 @@
     <section>
       imagem com efeito
     </section>
-
+    <section>
+      <form>
+        <input type="text" id="nome">
+        <label for="nome">Nome</label>
+        <input type="email" id="email">
+        <label for="email">Email</label>
+      </form>
+      <button>Quero me inscrever</button>
+    </section>
 
   </main>
 
   <footer>
-
+    <p>Project By <a href="#">Carlos Eduardo de Almeida</a></p>
   </footer>
 </body>
 
