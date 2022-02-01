@@ -18,6 +18,36 @@ body {
   transform: translate(-50%, -50%);
   display: flex;
 }
+@media (max-width: 900px) {
+  .content {
+    width: 700px;
+    height: 450px;
+  }
+}
+@media (max-width: 750px) {
+  .content {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .content {
+    width: 500px;
+    height: 300px;
+  }
+}
+@media (max-width: 550px) {
+  .content {
+    width: 400px;
+    height: 250px;
+  }
+}
+@media (max-width: 450px) {
+  .content {
+    width: 300px;
+    height: 200px;
+  }
+}
 .content .navigation {
   position: absolute;
   bottom: 20px;
@@ -34,6 +64,36 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
+}
+@media (max-width: 900px) {
+  .content .navigation .bar {
+    width: 60px;
+    height: 15px;
+  }
+}
+@media (max-width: 750px) {
+  .content .navigation .bar {
+    width: 50px;
+    height: 13px;
+  }
+}
+@media (max-width: 600px) {
+  .content .navigation .bar {
+    width: 45px;
+    height: 11px;
+  }
+}
+@media (max-width: 550px) {
+  .content .navigation .bar {
+    width: 40px;
+    height: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .content .navigation .bar {
+    width: 35px;
+    height: 8px;
+  }
 }
 .content .navigation .bar:hover {
   background-color: #e2e2e2;

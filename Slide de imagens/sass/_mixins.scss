@@ -1,0 +1,104 @@
+@mixin responsive-screen1 {
+  @media (max-width: 900px) {
+    width: 700px;
+    height: 450px;
+    // width: 80%;
+    //height: 50%;
+  }
+}
+@mixin responsive-screen2 {
+  @media (max-width: 750px) {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@mixin responsive-screen3 {
+  @media (max-width: 600px) {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@mixin responsive-screen4 {
+  @media (max-width: 550px) {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@mixin responsive-screen5 {
+  @media (max-width: 450px) {
+    width: 300px;
+    height: 200px;
+  }
+}
+@mixin responsive-bar1 {
+  @media (max-width: 900px) {
+    width: 60px;
+    height: 15px;
+  }
+}
+@mixin responsive-bar2 {
+  @media (max-width: 750px) {
+    width: 50px;
+    height: 13px;
+  }
+}
+
+@mixin responsive-bar3 {
+  @media (max-width: 600px) {
+    width: 45px;
+    height: 11px;
+  }
+}
+
+@mixin responsive-bar4 {
+  @media (max-width: 550px) {
+    width: 40px;
+    height: 10px;
+  }
+}
+
+@mixin responsive-bar5 {
+  @media (max-width: 450px) {
+    width: 35px;
+    height: 8px;
+  }
+}
+
+@mixin responsive-img1 {
+  @media (max-width: 900px) {
+    width: 700px;
+    height: 450px;
+    // width: 80%;
+    //height: 50%;
+  }
+}
+@mixin responsive-img2 {
+  @media (max-width: 750px) {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@mixin responsive-img3 {
+  @media (max-width: 600px) {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@mixin responsive-img4 {
+  @media (max-width: 550px) {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@mixin responsive-img5 {
+  @media (max-width: 450px) {
+    width: 300px;
+    height: 200px;
+  }
+}

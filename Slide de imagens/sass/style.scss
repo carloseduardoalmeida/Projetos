@@ -1,3 +1,4 @@
+@import "mixins";
 body {
   margin: 0;
   padding: 0;
@@ -18,7 +19,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  //justify-content: center;
+  @include responsive-screen1;
+  @include responsive-screen2;
+  @include responsive-screen3;
+  @include responsive-screen4;
+  @include responsive-screen5;
 
   .navigation {
     position: absolute;
@@ -36,6 +41,11 @@ body {
       border-radius: 5px;
       cursor: pointer;
       transition: 0.5s;
+      @include responsive-bar1;
+      @include responsive-bar2;
+      @include responsive-bar3;
+      @include responsive-bar4;
+      @include responsive-bar5;
 
       &:hover {
         background-color: rgb(226, 226, 226);
