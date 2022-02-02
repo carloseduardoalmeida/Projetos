@@ -90,10 +90,16 @@
     </section>
     <section class="form">
       <form>
-        <input type="text" id="nome" placeholder="">
-        <label for="nome">Nome</label>
-        <input type="email" id="email" placeholder="">
-        <label for="email">Email</label>
+        <fieldset>
+          <div class="container">
+            <input type="text" name="name" required autofocus>
+            <label>Nome</label>
+          </div>
+          <div class="container">
+            <input type="email" name="email" required>
+            <label>Email</label>
+          </div>
+        </fieldset>
       </form>
       <button>Quero me inscrever</button>
     </section>
