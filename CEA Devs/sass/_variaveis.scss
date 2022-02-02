@@ -1,6 +1,55 @@
-
-
 $font-destaque: "Poppins", sans-serif;
 $secondary-color: #20c997;
 $text-color: #777;
 $color1: rgb(221, 211, 211);
+
+@mixin responsive-headerh1 {
+  @media (max-width: 800px) {
+    font-size: 2em;
+  }
+}
+
+@mixin responsive-headerh3 {
+  @media (max-width: 800px) {
+    font-size: 1em;
+  }
+}
+
+@mixin responsive-headerimg {
+  @media (max-width: 800px) {
+    height: 35vh;
+  }
+}
+
+@mixin responsive-paralaxh1 {
+  @media (max-width: 700px) {
+    font-size: 1em;
+  }
+}
+
+@mixin responsive-chamada {
+  @media (max-width: 700px) {
+    font-size: 1em;
+    width: 80vw;
+  }
+}
+
+@mixin responsive-chamada1 {
+  @media (max-width: 400px) {
+    font-size: 1em;
+    width: 100vw;
+  }
+}
+
+@mixin responsive-form {
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@mixin responsive-footer {
+  @media (max-width: 600px) {
+    font-size: 0.8em;
+  }
+}
