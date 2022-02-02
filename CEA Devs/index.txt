@@ -36,39 +36,33 @@
 
         <div class="slide s1">
           <h2>HTML5</h2>
-          <a href="https://www.w3schools.com/html/" target="_blank"><img src="image/html-1.png" alt="HTML"></a>
+          <img src="image/html-1.png" alt="HTML">
         </div>
         <div class="slide">
           <h2>CSS3</h2>
-          <a href="https://www.w3schools.com/css/" target="_blank"><img src="image/css-1.png" alt="CSS"></a>
+          <img src="image/css-1.png" alt="CSS">
         </div>
         <div class="slide">
           <h2>JavaScript</h2>
-          <a href="https://www.w3schools.com/js/" target="_blank"><img src="image/javascript-1.png"
-              alt="JavaScript"></a>
+          <img src="image/javascript-1.png" alt="JavaScript">
         </div>
         <div class="slide">
           <h2>React</h2>
-          <a href="https://www.w3schools.com/REACT/DEFAULT.ASP" target="_blank"><img src="image/react-1.png"
-              alt="React"></a>
+          <img src="image/react-1.png" alt="React">
         </div>
         <div class="slide">
-          <h2>NodeJS</h2>
-          <a href="https://www.w3schools.com/nodejs/" target="_blank"><img src="image/nodejs-1.png" alt="NodeJS"></a>
+          <h2>NodeJS</h2><img src="image/nodejs-1.png" alt="NodeJS">
         </div>
         <div class="slide">
-          <h2>Python</h2>
-          <a href="https://www.w3schools.com/python/" target="_blank"><img src="image/python-1.png" alt="Python"></a>
+          <h2>Python</h2><img src="image/python-1.png" alt="Python">
         </div>
         <div class="slide">
           <h2>Swift</h2>
-          <a href="https://www.tutorialspoint.com/swift/index.htm" target="_blank"><img src="image/swift-1.png"
-              alt="Swift"></a>
+          <img src="image/swift-1.png" alt="Swift">
         </div>
         <div class="slide">
           <h2>MySQL</h2>
-          <a href="https://www.w3schools.com/mySQl/default.asp" target="_blank"><img src="image/mysql-1.png"
-              alt="mySQL"></a>
+          <img src="image/mysql-1.png" alt="mySQL">
         </div>
 
 
@@ -90,10 +84,10 @@
     </section>
     <section class="form">
       <form>
-        <input type="text" id="nome" placeholder="">
-        <label for="nome">Nome</label>
-        <input type="email" id="email" placeholder="">
-        <label for="email">Email</label>
+        <input type="text" id="nome" placeholder="NOME">
+        <!--<label for="nome">Nome</label>-->
+        <input type="email" id="email" placeholder="EMAIL">
+        <!--<label for="email">Email</label>-->
       </form>
       <button>Quero me inscrever</button>
     </section>

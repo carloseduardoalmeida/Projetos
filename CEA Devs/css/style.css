@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Thai+Looped:wght@200;300;400&family=Josefin+Sans:wght@200;300;400;600&family=Passion+One&family=Poppins:wght@100;200;300&family=Sriracha&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@
 body {
   background-color: black;
   color: whitesmoke;
+  font-family: "Poppins", sans-serif;
 }
 body a {
   text-decoration: none;
@@ -25,6 +27,7 @@ body a {
   margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
+  font-size: 3rem;
 }
 .header .text h3 {
   text-align: center;
@@ -49,6 +52,7 @@ body a {
   border: 1px solid #139e74;
   padding: 15px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .content {
@@ -65,7 +69,7 @@ body a {
 .content .slides {
   display: flex;
   width: 200vw;
-  justify-content: center;
+  height: 100%;
 }
 .content .slides input {
   display: none;
@@ -73,10 +77,38 @@ body a {
 .content .slides .slide {
   border: 1px solid #139e74;
   width: 25vw;
-  margin: 2px;
+  height: 50vh;
+  margin-top: 20px;
+  margin-bottom: 30px;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  padding-top: 30px;
+  background-size: 70%;
+  transition: 0.2s;
+  margin-left: 2px;
+  background-color: #0c0c0c;
+}
+.content .slides .slide:hover {
+  width: 27vw;
+  height: 52vh;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.content .slides .slide h2 {
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  background-color: rgba(218, 214, 214, 0.664);
+  border: 1px solid #139e74;
+  border-radius: 3px;
+  width: 40%;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-family: serif;
 }
 
 #slide1:checked ~ .s1 {
@@ -85,19 +117,24 @@ body a {
 }
 
 #slide2:checked ~ .s1 {
-  margin-left: -100%;
+  margin-left: -50%;
   transition: 0.7s;
 }
 
 .navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .navigation label img {
   width: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
   margin: 20px;
+}
+.navigation label img:hover {
+  cursor: pointer;
+  width: 30.6px;
 }
 
 .chamada {
@@ -106,6 +143,7 @@ body a {
   justify-content: center;
   align-items: center;
   padding: 70px;
+  box-shadow: inset 2px 2px 5px black;
 }
 .chamada h2 {
   color: #2f2f2f;
@@ -128,10 +166,22 @@ body a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 .form form {
+  position: relative;
   display: flex;
   flex-direction: column;
+}
+.form form label:nth-child(2) {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+.form form label:nth-child(3) {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 1px;
 }
 .form input {
   height: 2.3em;
@@ -152,16 +202,28 @@ body a {
   border-radius: 5px;
   margin-top: 15px;
   margin-bottom: 30px;
+  box-shadow: 2px 2px 4px black;
 }
 .form button:hover {
   cursor: pointer;
   font-size: 1.1em;
+  margin-top: 15px;
+  margin-bottom: 27px;
 }
 
 footer {
   display: flex;
   justify-content: center;
   padding: 30px;
+}
+footer a {
+  color: #0a9c0a;
+}
+footer a:hover {
+  cursor: pointer;
+  font-size: 1.05em;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 
 /*# sourceMappingURL=style.css.map */
