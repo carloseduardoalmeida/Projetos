@@ -8,110 +8,160 @@ body {
   background-color: black;
   color: whitesmoke;
 }
+body a {
+  text-decoration: none;
+}
 
 .header {
   display: flex;
-  color: #116e52;
   justify-content: center;
   align-items: center;
+}
+.header .text {
+  display: flex;
   flex-direction: column;
+}
+.header .text h1 {
+  margin-top: 50px;
+  margin-bottom: 40px;
   text-align: center;
-  text-shadow: 1px 1px 3px black;
 }
-.header h1 {
-  margin-top: 100px;
-  font-size: 5em;
-}
-.header h3 {
-  margin-top: 100px;
-  font-size: 2em;
-  width: 50%;
+.header .text h3 {
+  text-align: center;
+  margin-bottom: 40px;
 }
 .header img {
   align-self: flex-end;
+  height: 50vh;
 }
 
 .paralax {
   background-image: url("../image/programador.jpg");
-  width: 100%;
-  margin: 0;
-  padding-top: 20%;
-  padding-bottom: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-position: center;
+  height: 70vh;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 .paralax h1 {
-  width: 30%;
-  padding: 30px 20px;
-  border: 1px solid white;
-  font-size: 2.2em;
+  border: 1px solid #139e74;
+  padding: 15px;
   text-align: center;
 }
 
-.slides {
+.content {
   width: 100vw;
-  height: 400px;
-  position: absolute;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+.content h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content .slides {
+  display: flex;
+  width: 200vw;
   justify-content: center;
-  align-items: flex-start;
 }
-.slides h2 {
-  align-self: center;
-  font-size: 2.4em;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-.slides input {
+.content .slides input {
   display: none;
 }
-.slides .imgs {
-  position: absolute;
-  display: flex;
-  width: 200%;
-  height: 100%;
-}
-.slides .imgs .img {
-  border: 1px solid white;
-  background-color: #202020;
-  width: 12.5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.content .slides .slide {
+  border: 1px solid #139e74;
+  width: 25vw;
   margin: 2px;
-}
-.slides .imgs .img img {
-  width: 70%;
-  height: 100%;
-}
-.slides .navigation {
-  align-self: center;
-  align-items: center;
-  position: absolute;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
-  bottom: 10px;
 }
-.slides .navigation label img {
-  width: 30px;
-  margin: 30px;
-}
-.slides .navigation label img:hover {
-  cursor: pointer;
-  width: 31px;
-}
-.slides #slide1:checked ~ .s1 {
+
+#slide1:checked ~ .s1 {
   margin-left: 0;
   transition: 0.7s;
 }
-.slides #slide2:checked ~ .s1 {
-  margin-left: -50%;
+
+#slide2:checked ~ .s1 {
+  margin-left: -100%;
   transition: 0.7s;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+.navigation label img {
+  width: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin: 20px;
+}
+
+.chamada {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.chamada h2 {
+  color: #2f2f2f;
+  width: 60vw;
+  text-align: center;
+}
+
+.paralax2 {
+  background-image: url("../image/programador2.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.form {
+  padding-top: 30px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  height: 2.3em;
+  margin-bottom: 15px;
+  border: none;
+  width: 40vw;
+  box-shadow: 2px 2px 5px #085d44;
+  border-radius: 3px;
+}
+.form button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 15px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  background-color: #139e74;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.form button:hover {
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
